@@ -1,0 +1,85 @@
+
+/* Tirar o espaçamento dos bagulho */
+*{
+    margin: 0;
+}
+
+.topo{
+    background: black;
+    /* pra separar os botões da logo */
+    display: flex ;
+    justify-content: space-between;
+}
+
+/* divisão dos botões */
+.botoes{
+    /* ficar na mesma altura */
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    gap: 10px;
+
+}
+.botaopagina{
+    background: #000;
+    border: #000;
+    color: white;
+    text-decoration: none;
+}
+
+
+.meio{
+    position: relative;
+    background-color: green;
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-inicial{
+    font-size: 25px;
+    width: 50%;
+}
+
+.texto-final{
+    position: absolute;
+    bottom: 20px;
+}
+
+.final{
+    background: #000;
+    padding: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.botao-contato{
+    background: #000;
+    border: #000;
+    color: white;
+}
+.login{
+    color:white;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+body{
+    background-color: #000;
+}
+.botaocadastro{
+    color: white;
+    background-color: green;
+    border: 0;
+    padding: 9px;
+    border-radius: 2px;
+
+}
