@@ -8,22 +8,28 @@ export default function Login(){
         <div className="login"> 
             <img width={225} src={logo} alt="" />
             <p>
-            Cadastrar-se
+            Login
             </p>
-            <input type="email"placeholder="email" />
             <input type="number"placeholder="mátricula" />
+            <input type="email"placeholder="email" />
             <input type="password"placeholder="senha" />
-            <input type="password"placeholder="confirmar senha" />
+           
+        
             <div>
                 <p>
-                    você é <input name="você" type="radio" />admim
-                            <input name="você" type="radio" />colaborador
-                </p>    
+                    Não possui cadastro? <a href="cadastro" className="botaopaginadecadastrologin">Cadastra-se</a>
+                
+                </p>  
+                
+                 
+                
                 
             </div>
-            <button className="botaocadastro">
-                cadastrar-se
+            <button className="botaologin">
+                Acessar
+            
             </button>
+
 
 
 

@@ -8,8 +8,8 @@ export default function Home() {
             <div className="topo">
                 <img width={150} src={logo} alt="" />
                 <div className="botoes">
-                    <a href="/cadastr" className="botaopagina">Login</a>
-                    <a href="/login" className="botaopagina">Cadastrar-se</a>
+                    <a href="/login" className="botaopagina">Login</a>
+                    <a href="/cadastro" className="botaopagina">Cadastrar-se</a>
                 </div>
             </div>
             <div className="meio">
