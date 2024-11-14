@@ -11,7 +11,7 @@ export default function cadastro (){
             Cadastrar-se
             </p>
             <input type="email"placeholder="email" />
-            <input type="number"placeholder="mátricula" />
+            <input type="number"placeholder="matrícula" />
             <input type="password"placeholder="senha" />
             <input type="password"placeholder="confirmar senha" />
             <div>

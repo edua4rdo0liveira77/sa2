@@ -110,3 +110,19 @@ body{
     text-decoration: none;
 
 }
+
+.botaoacessar{
+    color: white;
+    background-color: green;
+    border: 0;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+.paginaeditartreino{
+    background: black;
+    /* pra separar os botões da logo */
+    display: flex ;
+    justify-content: space-between;
+}

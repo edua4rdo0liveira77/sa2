@@ -10,25 +10,33 @@ export default function Login(){
             <p>
             Login
             </p>
-            <input type="number"placeholder="mátricula" />
+            <input type="number"placeholder="matrícula" />
             <input type="email"placeholder="email" />
             <input type="password"placeholder="senha" />
            
         
             <div>
                 <p>
-                    Não possui cadastro? <a href="cadastro" className="botaopaginadecadastrologin">Cadastra-se</a>
+                    Não possui cadastro? <a href="cadastro" className="botaopaginadecadastrologin">Cadastrar-se</a>
                 
                 </p>  
                 
                  
+                    
+                       
+                    
+                 
                 
                 
             </div>
-            <button className="botaologin">
-                Acessar
+
+            <div>
+                <br />
+            <a href="/editarTreino" className="botaoacessar">acessar</a>
             
-            </button>
+
+            </div>
+            
 
 
 
