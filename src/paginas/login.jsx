@@ -20,6 +20,21 @@ export default function Login(){
                     Não possui cadastro? <a href="cadastro" className="botaopaginadecadastrologin">Cadastrar-se</a>
                 
                 </p>  
+            </div>
+            <div>
+                <br />
+                <a href="/editar/treinamento" className="botaoacessar">acessar</a>
+            </div>
+
+            </div>
+        
+        
+        </div>
+     )
+ }
+
+
+            
                 
                  
                     
@@ -28,14 +43,9 @@ export default function Login(){
                  
                 
                 
-            </div>
-
-            <div>
-                <br />
-            <a href="/editarTreino" className="botaoacessar">acessar</a>
             
 
-            </div>
+            
             
 
 
@@ -45,9 +55,4 @@ export default function Login(){
 
 
           
-        </div>
-        
-        
-       </div>
-    )
-}
+  

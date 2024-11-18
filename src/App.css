@@ -126,3 +126,208 @@ body{
     display: flex ;
     justify-content: space-between;
 }
+#headerHomePage2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #headerHomePage2 img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #sectionHomePage {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #sectionHomePage p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #sectionHomePage label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  #sectionHomePage input[type="text"],
+  #sectionHomePage input[type="date"],
+  #sectionHomePage textarea,
+  #sectionHomePage input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #sectionHomePage .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  #headerHomePage2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #headerHomePage2 img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #sectionHomePage {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  #sectionHomePage p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #sectionHomePage label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  #sectionHomePage input[type="text"],
+  #sectionHomePage input[type="date"],
+  #sectionHomePage textarea,
+  #sectionHomePage input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #sectionHomePage .button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  #trainingsList {
+    background-color: black;
+    color: white;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  #trainingsList h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .trainingItem {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .trainingItem p {
+    margin: 5px 0;
+  }
+  
+  .editButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* App.css */
+.App {
+    text-align: center;
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .App-header {
+    padding: 20px;
+    border-bottom: 1px solid #444;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .trainings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .caixadetreino {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .caixadetreino p {
+    margin: 5px 0;
+  }
+  
+  .caixadetreino a {
+    background-color: #888;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .caixadetreino button:hover {
+    background-color: #aaa;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    
+  }
+  .App-header input{
+    background-color: #888;
+    border: none;
+    color: white;
+
+  }

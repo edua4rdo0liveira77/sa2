@@ -12,6 +12,7 @@ import Cadastro from './paginas/cadastro';
 import Login from './paginas/login';
 import EditarTreinamento from './paginas/editarTreino';
 import Treinamento from './paginas/treino';
+import Meustreinos from './paginas/meustreinos';
 
 function App() {
 
@@ -24,6 +25,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/editar/treinamento" element={<EditarTreinamento />} />
         <Route path="/treinamento" element={<Treinamento />} />
+        <Route path="/meustreinos" element={<Meustreinos />} />
+
+
       </Routes>
     </Router>
 

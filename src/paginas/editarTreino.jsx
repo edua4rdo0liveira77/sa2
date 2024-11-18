@@ -1,53 +1,34 @@
-// Pagina home
-import logo from "../assets/logo.png"
+import React from 'react'
+import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
-export default function editartreino(){
-
-    return(
-       <div>
-        <div className="login"> 
-            <img width={225} src={logo} alt="" />
-            <p>
-            Login
-            </p>
-            <input type="number"placeholder="matrícula" />
-            <input type="email"placeholder="email" />
-            <input type="password"placeholder="senha" />
-           
+const Enviar = () => {
+  return (
+    <>
+      <header id='headerHomePage2'>
         
-            <div>
-                <p>
-                    Não possui cadastro? <a href="cadastro" className="botaopaginadecadastrologin">Cadastrar-se</a>
-                
-                </p>  
-                
-                 
-                    
-                       
-                    
-                 
-                
-                
-            </div>
+        <img src={logo} width={150} alt="logo" />
+        <h1>Seja bem vindo!</h1>
+      </header>
+      <div id='sectionHomePage'>
+        <p>Envie seus treinamentos concluídos</p>
+        <label htmlFor="dataConclusao">Nome do treinamento</label>
+        <input type="text" placeholder='Nome do treinamento' id='nomeTreinamento' />
 
-            <div>
-                <br />
-            <a href="/editartreino" className="botaoacessar">acessar</a>
-            
-
-            </div>
-            
-
-
-
-
-
-
-
-          
-        </div>
+        <label htmlFor="dataConclusao">Data de conclusão</label>
+        <input type="date" name="dataConclusao" id="dataConclusao" />
         
+        <label htmlFor="descricao">Descrição</label>
+        <textarea name="descricao" placeholder='Descrição' id="descricao"></textarea>
+
+        <label htmlFor="certificado">Anexe seu certificado</label>
+        <input type="file" name="certificado" id="certificado" />
         
-       </div>
-    )
+        <Link to='/meustreinos' className='button'>Meus treinos</Link><br />
+        <Link to='/treinamento' className='button'>Ver todos Treinamentos</Link>
+      </div>
+    </>
+  )
 }
+
+export default Enviar
