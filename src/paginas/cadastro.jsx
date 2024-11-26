@@ -10,37 +10,39 @@ export default function cadastro (){
             <p>
             Cadastrar-se
             </p>
-            <input type="email"placeholder="email" />
-            <input type="number"placeholder="matrícula" />
-            <input type="password"placeholder="senha" />
-            <input type="password"placeholder="confirmar senha" />
-            <div>
+            <div className="cssinput">
+            <input type="email"placeholder="Email" />
+            <input type="number"placeholder="Matrícula" />
+            <input type="password"placeholder="Senha" />
+            <input type="password"placeholder="Confirmar Senha" />
+            </div>
+               <div>
                 <p>
                     você é <input name="você" type="radio" />Admim  <input name="você" type="radio" />Colaborador
                             
                 </p>    
                 
-            </div>
-            <div>
-            <a href="/login" className="botaocadastro">cadastrar-se</a>
+               </div>
+             <div>
+             <a href="/login" className="botaocadastro">cadastrar-se</a>
+             </div>
+
             
+            
+            </div>    
 
             </div>
-            
-            
-
-
+    )
+}
 
 
 
 
           
-        </div>
         
         
-       </div>
-    )
-}
+        
+
 
 
 

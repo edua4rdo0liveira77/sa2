@@ -10,9 +10,12 @@ export default function Login(){
             <p>
             Login
             </p>
-            <input type="number"placeholder="matrícula" />
-            <input type="email"placeholder="email" />
-            <input type="password"placeholder="senha" />
+            
+            <div className="cssinput">
+            <input type="number"placeholder="Matrícula" />
+            <input type="email"placeholder="Email" />
+            <input type="password"placeholder="Senha" />
+            </div>
            
         
             <div>

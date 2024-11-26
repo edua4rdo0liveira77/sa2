@@ -23,7 +23,7 @@ const Enviar = () => {
 
         <label htmlFor="certificado">Anexe seu certificado</label>
         <input type="file" name="certificado" id="certificado" />
-        
+        <Link to='/treinamento' className='button'>Enviar Treino</Link><br />
         <Link to='/meustreinos' className='button'>Meus treinos</Link><br />
         <Link to='/treinamento' className='button'>Ver todos Treinamentos</Link>
       </div>

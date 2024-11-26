@@ -8,7 +8,7 @@ const Meustreinos = () => {
     <div className="App">
       <header className="App-header">
       <img src={logo} width={150} alt="logo" />
-        <h1>Aqui estão os treinamentos de seus colaboradores</h1><br />
+        <h1>Aqui estão os treinamentos </h1><br />
         <p>Pesquisar: &nbsp; <input type="search" /></p>
       </header>
       <div className="trainings">
